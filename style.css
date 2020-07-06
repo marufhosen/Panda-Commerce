@@ -1,0 +1,19 @@
+/* Header */
+
+.Banner{
+    padding-top: 100px;
+}
+.banner-bg{
+    background-color: #fceae8;
+    border-radius: 8px;
+}
+.price{
+    color: #ff136f;
+}
+.buy-now{
+    background-image: linear-gradient(rgb(255, 88, 155) 0%, rgb(255, 19, 111) 100%);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 9px 25px;
+    border-radius: 5px;
+}
