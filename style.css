@@ -1,4 +1,4 @@
-/* Header */
+/* Header and banner */
 
 .Banner{
     padding-top: 100px;
@@ -6,6 +6,9 @@
 .banner-bg{
     background-color: #fceae8;
     border-radius: 8px;
+}
+.carousel-item{
+    padding: 20px 40px;
 }
 .price{
     color: #ff136f;
@@ -15,5 +18,72 @@
     color: rgb(255, 255, 255);
     border: none;
     padding: 9px 25px;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+/* Categories */
+
+.categories{
+    margin-top: 90px;
+}
+.cat1{
+    background-color: #ffa500;
+}
+.cat2{
+    background-color: #da70d6;
+}
+.cat3{
+    background-color: #0000ff;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 35%;
+}
+
+/* Shoes */
+
+.shoes{
+    margin-top: 100px;
+}
+
+.shoes .card{
+    border: none;
+    box-shadow: 10px 10px 15px -15px rgba(0,0,0,0.50);
+    border-radius: 8px;
+}
+.bagpack{
+    margin-top: 100px;
+}
+
+/* Backpack */
+
+.bagpack .card{
+    border: none;
+    box-shadow: 10px 10px 15px -15px rgba(0,0,0,0.50);
+    border-radius: 8px;
+}
+.bagpack .card-footer{
+    border-top: none;
+}
+.contact-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+    padding: 80px;
+}
+.contact{
+    margin-top: 100px;
+}
+
+/*Footer*/
+.footer{
+    margin-top: 100px;
+}
+.footer p{
+    font-size: smaller;
 }
